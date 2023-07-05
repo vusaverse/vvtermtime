@@ -2,3 +2,4 @@
 .Rproj$
 ^\.github$
 ^docs$
+^TODO\.md$
