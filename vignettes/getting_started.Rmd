@@ -38,7 +38,6 @@ library(vvtermtime)
 
 # Replace "your_api_key" and "https://www.semestry.com/" with your actual credentials
 semestry <- authenticate(api_key = "your_api_key", base_url = "https://www.semestry.com/api/")
-
 ```
 
 Make sure to replace "your_api_key" with your actual API key provided by Semestry, and "<https://www.semestry.com/>" with the appropriate base URL for your Semestry instance.
@@ -53,7 +52,6 @@ To retrieve room data, you can simply pass the `semestry` object to the `get_roo
 
 ```{r rooms}
 rooms <- get_rooms(semestry)
-
 ```
 
 This will fetch the room data from the Semestry API and store it in the rooms variable.
@@ -64,7 +62,6 @@ To retrieve room bookings data, you can use the get_roombookings function:
 
 ```{r roombookings}
 roomsbookings <- get_roombookings(semestry)
-
 ```
 
 This will fetch the room bookings data from the Semestry API and store it in the room_bookings variable.
