@@ -2,6 +2,7 @@
 
 export("%>%")
 export(authenticate)
+export(get_database)
 export(get_modules)
 export(get_roombookings)
 export(get_rooms)
