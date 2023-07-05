@@ -2,14 +2,12 @@
 % Please edit documentation in R/get_rooms.R
 \name{get_rooms}
 \alias{get_rooms}
-\title{Retrieve room data from an API}
+\title{Retrieve room data from the Semestry API}
 \usage{
-get_rooms(base_url, key, timeout = 30)
+get_rooms(semestry, timeout = 30)
 }
 \arguments{
-\item{base_url}{The base URL of the API.}
-
-\item{key}{The API key for authorization.}
+\item{semestry}{An authenticated Semestry object.}
 
 \item{timeout}{The timeout duration for the GET request (default: 30 seconds).}
 }
@@ -17,5 +15,5 @@ get_rooms(base_url, key, timeout = 30)
 The retrieved room data from the API.
 }
 \description{
-This function sends a GET request to the rooms endpoint of a specified API and retrieves the room data.
+This function sends a GET request to the rooms endpoint of the Semestry API and retrieves the room data.
 }
