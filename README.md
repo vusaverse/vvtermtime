@@ -1,2 +1,8 @@
+
 # vvtermtime
-R package to communicate with Semestry Termtime
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of vvtermtime is to ...
+
