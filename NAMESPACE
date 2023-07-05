@@ -2,6 +2,8 @@
 
 export("%>%")
 export(authenticate)
+export(get_buildings)
+export(get_campuses)
 export(get_courses)
 export(get_database)
 export(get_departments)
