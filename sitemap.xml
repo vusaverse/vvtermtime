@@ -25,6 +25,12 @@
     <loc>/reference/authenticate.html</loc>
   </url>
   <url>
+    <loc>/reference/get_buildings.html</loc>
+  </url>
+  <url>
+    <loc>/reference/get_campuses.html</loc>
+  </url>
+  <url>
     <loc>/reference/get_courses.html</loc>
   </url>
   <url>
