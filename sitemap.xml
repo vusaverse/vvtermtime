@@ -19,7 +19,16 @@
     <loc>/reference/authenticate.html</loc>
   </url>
   <url>
+    <loc>/reference/get_roombookings.html</loc>
+  </url>
+  <url>
     <loc>/reference/get_rooms.html</loc>
+  </url>
+  <url>
+    <loc>/reference/get_schedule_rooms.html</loc>
+  </url>
+  <url>
+    <loc>/reference/get_staff.html</loc>
   </url>
   <url>
     <loc>/reference/get_students.html</loc>
