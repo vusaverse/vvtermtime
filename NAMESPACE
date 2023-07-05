@@ -3,4 +3,5 @@
 export("%>%")
 export(authenticate)
 export(get_rooms)
+export(get_students)
 importFrom(magrittr,"%>%")
