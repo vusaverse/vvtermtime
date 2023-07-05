@@ -1,0 +1,76 @@
+---
+title: "Getting Started with the vvtermtime package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting Started with the vvtermtime package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  eval = FALSE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+The `vvtermtime` package provides a convenient way to interact with the Semestry TermTime API in R. This vignette will guide you through the installation process and demonstrate how to authenticate with the Semestry API to start retrieving data.
+
+## Installation
+
+You can install the `vvtermtime` package from GitHub using the following command:
+
+```{r installation}
+devtools::install_github("vusaverse/vvtermtime")
+```
+
+The goal is to make the package available on CRAN in the near future.
+
+# Authentication
+
+To access the Semestry API, you need an API key and the base URL of your Semestry instance. The `authenticate` function allows you to authenticate with the API using these credentials.
+
+```{r authenticate}
+library(vvtermtime)
+
+# Replace "your_api_key" and "https://www.semestry.com/" with your actual credentials
+semestry <- authenticate(api_key = "your_api_key", base_url = "https://www.semestry.com/api/")
+
+```
+
+Make sure to replace "your_api_key" with your actual API key provided by Semestry, and "<https://www.semestry.com/>" with the appropriate base URL for your Semestry instance.
+
+# Retrieving Data
+
+Once authenticated, you can start retrieving data from the Semestry API using the provided functions. Here are some examples:
+
+## Retrieve Room Data
+
+To retrieve room data, you can simply pass the `semestry` object to the `get_rooms` function:
+
+```{r rooms}
+rooms <- get_rooms(semestry)
+
+```
+
+This will fetch the room data from the Semestry API and store it in the rooms variable.
+
+## Retrieve Room Bookings
+
+To retrieve room bookings data, you can use the get_roombookings function:
+
+```{r roombookings}
+roomsbookings <- get_roombookings(semestry)
+
+```
+
+This will fetch the room bookings data from the Semestry API and store it in the room_bookings variable.
+
+# Conclusion
+
+This vignette provided a brief overview of the `vvtermtime` package and demonstrated how to get started by authenticating with the Semestry TermTime API and retrieving data. You can explore the package further by referring to the function documentation and other available vignettes.
+
+For more information, please visit the `vvtermtime` [GitHub](https://github.com/vusaverse/vvtermtime/) repository or consult the package documentation.

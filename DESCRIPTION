@@ -13,3 +13,7 @@ Imports:
     httr,
     jsonlite,
     magrittr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
