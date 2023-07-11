@@ -46,6 +46,12 @@
     <loc>/reference/get_modules.html</loc>
   </url>
   <url>
+    <loc>/reference/get_report_booking.html</loc>
+  </url>
+  <url>
+    <loc>/reference/get_report_room.html</loc>
+  </url>
+  <url>
     <loc>/reference/get_roombookings.html</loc>
   </url>
   <url>
