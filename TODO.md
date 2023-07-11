@@ -135,9 +135,9 @@
 - [ ] REPEAT GROUP 
 - [ ] GET /repeatgroup/{c} 
 - [ ] GET /exceptiongroup/{c} 
-- [ ] REPORT 
-- [ ] GET /report/room 
-- [ ] GET /report/booking 
+- [x] REPORT 
+- [x] GET /report/room 
+- [x] GET /report/booking 
 - [ ] ROOM 
 - [x] GET /rooms 
 - [ ] GET /room/{c} 
