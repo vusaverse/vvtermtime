@@ -75,13 +75,32 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
+
 <div class="section level1">
 <div class="page-header"><h1 id="vvtermtime">vvtermtime<a class="anchor" aria-label="anchor" href="#vvtermtime"></a>
 </h1></div>
 <!-- badges: start -->
 
-<p>The goal of vvtermtime is to …</p>
+<p>The goal of <code>vvtermtime</code> is to provide functionalities to interact with the Semestry Timetabling Software API. The Semestry Timetabling Software is used by universities and educational institutions in creating efficient and effective schedules for their academic activities.</p>
+<p><code>vvtermtime</code> allows you to leverage the capabilities of the Semestry Timetabling Software directly from your R workflow.</p>
 </div>
+<div class="section level1">
+<h1 id="getting-started">Getting Started:<a class="anchor" aria-label="anchor" href="#getting-started"></a>
+</h1>
+<p>Install the vvtermtime package from GitHub using the following command:</p>
+<pre><code><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtools"</span><span class="op">)</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"vusaverse/vvtermtime"</span><span class="op">)</span></span></code></pre>
+<p>Load the vvtermtime package in your R script:</p>
+<pre><code><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/vusaverse/vvtermtime" class="external-link">vvtermtime</a></span><span class="op">)</span></span></code></pre>
+<p>Obtain your Semestry API key and base URL from the Semestry Timetabling Software provider at your institution.</p>
+<p>Create a Semestry object using the <code><a href="reference/authenticate.html">authenticate()</a></code> function. Replace your_api_key with your actual API key and <a href="https://api.semestry.com" class="external-link uri">https://api.semestry.com</a> with the appropriate base URL:</p>
+<pre><code><span><span class="va">semestry</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/authenticate.html">authenticate</a></span><span class="op">(</span>base_url <span class="op">=</span> <span class="st">"https://api.semestry.com"</span>, api_key <span class="op">=</span> <span class="st">"your_api_key"</span><span class="op">)</span></span></code></pre>
+<p>Now you are able to use the methods in this package. For example to retrieve the bookings for your institution, pass the <code>semestry</code> object to the <code><a href="reference/get_roombookings.html">get_roombookings()</a></code> function, as shown below:</p>
+<pre><code><span><span class="va">Bookings</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/get_roombookings.html">get_roombookings</a></span><span class="op">(</span><span class="va">semestry</span><span class="op">)</span></span></code></pre>
+<p>Please refer to the package documentation for more detailed information on how to use the vvtermtime package and its functions.</p>
+<p>For more information about Semestry and their timetabling software, please visit their website: <a href="https://semestry.com/solutions/termtime/" class="external-link uri">https://semestry.com/solutions/termtime/</a></p>
+</div>
+
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
