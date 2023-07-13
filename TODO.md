@@ -175,7 +175,7 @@
 - [ ] POST /staffgroup/{c} 
 - [ ] DELETE /staffgroup/{c} 
 - [ ] STAFF POOL 
-- [ ] GET /staffpools 
+- [x] GET /staffpools 
 - [ ] GET /staffpool/module/{c} 
 - [ ] GET /staffpool/staff/{c} 
 - [ ] POST /staffpool/staff/{sc}/module/{mc} 
