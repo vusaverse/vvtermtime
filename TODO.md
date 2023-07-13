@@ -207,7 +207,7 @@
 - [ ] PUT /studentgroup/{gc}/er/{o} 
 - [ ] POST /studentgroup/{gc}/er/{o} 
 - [ ] DELETE /studentgroup/{gc}/er/{o} 
-- [ ] GET /studentgroupmaps 
+- [x] GET /studentgroupmaps 
 - [ ] GET /studentgroup/{gc}/activity/{c} 
 - [ ] POST /studentgroup/{gc}/activity/{c} 
 - [ ] DELETE /studentgroup/{gc}/activity/{c} 
