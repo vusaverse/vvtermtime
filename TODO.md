@@ -119,7 +119,7 @@
 - [ ] POST /module/{c} 
 - [ ] DELETE /module/{c} 
 - [ ] OFFER 
-- [ ] GET /offers 
+- [x] GET /offers 
 - [ ] GET /offer/{n} 
 - [ ] PUT /offer/{n} 
 - [ ] POST /offer/{n} 
