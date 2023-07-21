@@ -17,3 +17,10 @@ The retrieved offers from the API.
 \description{
 This function sends a GET request to the offers endpoint of the Semestry API and retrieves the offers.
 }
+\examples{
+\dontrun{
+  semestry <- authenticate_semestry()
+  get_offers(semestry)
+}
+
+}

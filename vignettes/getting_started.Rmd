@@ -36,11 +36,11 @@ To access the Semestry API, you need an API key and the base URL of your Semestr
 ```{r authenticate}
 library(vvtermtime)
 
-# Replace "your_api_key" and "https://www.semestry.com/" with your actual credentials
-semestry <- authenticate(api_key = "your_api_key", base_url = "https://www.semestry.com/api/")
+# Replace "your_api_key" and "https://semestry.com/" with your actual credentials
+semestry <- authenticate(api_key = "your_api_key", base_url = "https://semestry.com/api/")
 ```
 
-Make sure to replace "your_api_key" with your actual API key provided by Semestry, and "<https://www.semestry.com/>" with the appropriate base URL for your Semestry instance.
+Make sure to replace "your_api_key" with your actual API key provided by Semestry, and "<https://semestry.com/>" with the appropriate base URL for your Semestry instance.
 
 # Retrieving Data
 

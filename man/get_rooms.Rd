@@ -17,3 +17,10 @@ The retrieved room data from the API.
 \description{
 This function sends a GET request to the rooms endpoint of the Semestry API and retrieves the room data.
 }
+\examples{
+\dontrun{
+  semestry <- authenticate_semestry()
+  get_rooms(semestry)
+}
+
+}

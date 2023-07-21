@@ -17,3 +17,10 @@ The retrieved course data from the API.
 \description{
 This function sends a GET request to the courses endpoint of the Semestry API and retrieves the course data.
 }
+\examples{
+\dontrun{
+  semestry <- authenticate_semestry()
+  get_courses(semestry)
+}
+
+}

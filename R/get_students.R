@@ -6,6 +6,11 @@
 #' @param timeout The timeout duration for the GET request (default: 30 seconds).
 #'
 #' @return The retrieved student data from the API.
+#' @examples
+#' \dontrun{
+#'   semestry <- authenticate_semestry()
+#'   get_students(semestry)
+#' }
 #'
 #' @export
 get_students <- function(semestry, timeout = 30) {

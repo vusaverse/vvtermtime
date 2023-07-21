@@ -17,3 +17,10 @@ The retrieved student data from the API.
 \description{
 This function sends a GET request to the students endpoint of the Semestry API and retrieves the student data.
 }
+\examples{
+\dontrun{
+  semestry <- authenticate_semestry()
+  get_students(semestry)
+}
+
+}

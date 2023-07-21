@@ -17,3 +17,10 @@ The retrieved staff data from the API.
 \description{
 This function sends a GET request to the staff endpoint of the Semestry API and retrieves the staff data.
 }
+\examples{
+\dontrun{
+  semestry <- authenticate_semestry()
+  get_staff(semestry)
+}
+
+}
