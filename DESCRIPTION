@@ -6,7 +6,7 @@ Authors@R:
     person("Tomer", "Iwan", , "t.iwan@vu.nl", role = c("aut", "cre", "cph"))
 Description: Provides an R interface for interacting with the 'Semestry TermTime' services.
     It allows users to retrieve scheduling data from the API. see
-    <https://github.com/vusaverse/vvtermtime/blob/main/openapi_7.7.0.pdf> for details).
+    <https://github.com/vusaverse/vvtermtime/blob/main/openapi_7.7.0.pdf> for details.
 URL: https://github.com/vusaverse/vvtermtime,
     https://vusaverse.github.io/vvtermtime/
 License: MIT + file LICENSE
