@@ -1,54 +1,64 @@
 - [ ] ACTIVITY 
-- [ ] GET /activities 
+- [x] GET /activities 
 - [ ] GET /activity/{c} 
 - [ ] PUT /activity/{c} 
 - [ ] DELETE /activity/{c} 
 - [ ] POST /activity 
+
 - [ ] ACTIVITY GROUP 
-- [ ] GET /activitygroups 
+- [x] GET /activitygroups 
 - [ ] GET /activitygroup/{c} 
 - [ ] ACTIVITY TEMPLATES 
 - [ ] GET /activitytemplates 
 - [ ] GET /activitytemplate/{c} 
 - [ ] DELETE /activitytemplate/{c} 
+
 - [ ] ACTIVITY TYPE 
-- [ ] GET /activitytypes 
+- [x] GET /activitytypes 
 - [ ] GET /activitytype/{c} 
 - [ ] POST /activitytype/{c} 
 - [ ] DELETE /activitytype/{c} 
+
 - [ ] ASSESSMENT TYPES 
-- [ ] GET /assessmenttypes 
+- [x] GET /assessmenttypes 
 - [ ] GET /assessmenttype/{c} 
 - [ ] PUT /assessmenttype/{c} 
 - [ ] DELETE /assessmenttype/{c} 
 - [ ] POST /assessmenttype 
+
 - [ ] ASSESSMENTPERIOD 
 - [ ] GET /assessmentperiod/{assessmentPeriodCode} 
-- [ ] BOOKING TYPE 
-- [ ] GET /bookingtypes 
+
+- [x] BOOKING TYPE 
+- [x] GET /bookingtypes 
+
 - [ ] BUILDING 
 - [x] GET /buildings 
 - [ ] GET /building/{b}/{c} 
 - [ ] PUT /building/{b}/{c} 
 - [ ] POST /building/{b}/{c} 
 - [ ] DELETE /building/{b}/{c} 
+
 - [ ] CAMPUS 
 - [x] GET /campuses 
 - [ ] GET /campus/{c} 
 - [ ] PUT /campus/{c} 
 - [ ] POST /campus/{c} 
 - [ ] DELETE /campus/{c} 
+
 - [ ] CAPABILITY 
-- [ ] GET /capabilities 
+- [x] GET /capabilities 
 - [ ] GET /capability/{c} 
 - [ ] POST /capability/{c} 
 - [ ] DELETE /capability/{c} 
+
 - [ ] CONTACT REQUIREMENT 
-- [ ] GET /contactrequirements 
+- [x] GET /contactrequirements 
 - [ ] GET /contactrequirement/{c} 
 - [ ] PUT /contactrequirement/{c} 
 - [ ] POST /contactrequirement/{c} 
 - [ ] DELETE /contactrequirement/{c} 
+
 - [ ] COURSE 
 - [x] GET /courses 
 - [ ] GET /course/{cc} 
@@ -62,8 +72,10 @@
 - [ ] GET /course/{cc}/erBlocks 
 - [ ] POST /course/{cc}/erBlocks 
 - [ ] DELETE /course/{cc}/erBlocks 
-- [ ] DATABASE 
+
+- [x] DATABASE 
 - [x] GET /database 
+
 - [ ] DEPARTMENT 
 - [x] GET /departments 
 - [ ] GET /department/{c} 
@@ -71,11 +83,11 @@
 - [ ] POST /department/{c} 
 - [ ] DELETE /department/{c} 
 - [ ] GET /department 
+
 - [ ] EXAMS 
 - [ ] GET /classicexams 
 - [ ] GET /classicexam/{c} 
 - [ ] PUT /classicexam/{c} 
-- [ ]  
 - [ ] POST /classicexam/{c} 
 - [ ] DELETE /classicexam/{c} 
 - [ ] POST /classicexam/{c}/student/{s} 
@@ -96,28 +108,33 @@
 - [ ] DELETE /takehomeexam/{c}/student/{s} 
 - [ ] GET /submissions 
 - [ ] GET /submission/{c} 
+
 - [ ] EXEMPTION 
 - [ ] GET /exemptions 
 - [ ] POST /exemptions 
 - [ ] DELETE /exemptions/{code} 
+
 - [ ] FLOOR 
 - [ ] GET /floors 
 - [ ] GET /floor/{f}/{b}/{c} 
 - [ ] PUT /floor/{f}/{b}/{c} 
 - [ ] POST /floor/{f}/{b}/{c} 
 - [ ] DELETE /floor/{f}/{b}/{c} 
+
 - [ ] LOCATION 
 - [ ] GET /locations 
 - [ ] GET /location/{code} 
 - [ ] PUT /location/{code} 
 - [ ] POST /location/{code} 
 - [ ] DELETE /location/{code} 
+
 - [ ] MODULE 
 - [x] GET /modules 
 - [ ] GET /module/{c} 
 - [ ] PUT /module/{c} 
 - [ ] POST /module/{c} 
 - [ ] DELETE /module/{c} 
+
 - [ ] OFFER 
 - [x] GET /offers 
 - [ ] GET /offer/{n} 
@@ -125,41 +142,50 @@
 - [ ] POST /offer/{n} 
 - [ ] DELETE /offer/{n} 
 - [ ] GET /offer/{n}/activities 
+
 - [ ] OPTIONGROUPS 
 - [ ] GET /optiongroups 
+
 - [ ] PERFORMANCE 
 - [ ] GET /performance 
 - [ ] POST /performance 
+
 - [ ] PING 
 - [ ] GET /ping 
+
 - [ ] REPEAT GROUP 
 - [ ] GET /repeatgroup/{c} 
 - [ ] GET /exceptiongroup/{c} 
+
 - [x] REPORT 
 - [x] GET /report/room 
 - [x] GET /report/booking 
+
 - [ ] ROOM 
 - [x] GET /rooms 
 - [ ] GET /room/{c} 
 - [ ] PUT /room/{c} 
 - [ ] POST /room/{c} 
 - [ ] DELETE /room/{c} 
+
 - [ ] ROOM BOOKING 
 - [x] GET /roombookings 
 - [ ] GET /roombooking/{c} 
 - [ ] PUT /roombooking/{c} 
 - [ ] POST /roombooking/{c} 
 - [ ] DELETE /roombooking/{c} 
+
 - [ ] ROOM RELATIONSHIP 
-- [ ] GET /roomrelationships 
+- [x] GET /roomrelationships 
 - [ ] GET /roomrelationship/{c} 
 - [ ] POST /roomrelationship/{c} 
 - [ ] DELETE /roomrelationship/{c} 
-- [ ]  
+
 - [ ] SCHEDULE 
 - [x] GET /schedule/rooms 
 - [ ] GET /schedule/room/null 
 - [ ] GET /schedule/room/{c} 
+
 - [ ] STAFF 
 - [x] GET /staff 
 - [ ] GET /staff/{c} 
@@ -168,18 +194,21 @@
 - [ ] DELETE /staff/{c} 
 - [ ] POST /staff/{c}/activity/{ac} 
 - [ ] DELETE /staff/{c}/activity/{ac} 
+
 - [ ] STAFF GROUP 
-- [ ] GET /staffgroups 
+- [rx] GET /staffgroups 
 - [ ] GET /staffgroup/{c} 
 - [ ] PUT /staffgroup/{c} 
 - [ ] POST /staffgroup/{c} 
 - [ ] DELETE /staffgroup/{c} 
+
 - [ ] STAFF POOL 
 - [x] GET /staffpools 
 - [ ] GET /staffpool/module/{c} 
 - [ ] GET /staffpool/staff/{c} 
 - [ ] POST /staffpool/staff/{sc}/module/{mc} 
 - [ ] DELETE /staffpool/staff/{sc}/module/{mc} 
+
 - [ ] STUDENT 
 - [x] GET /students 
 - [ ] GET /student/{c} 
@@ -196,9 +225,9 @@
 - [ ] POST /student/{s}/er/{o} 
 - [ ] DELETE /student/{s}/er/{o} 
 - [ ] DELETE /student/{s}/course/{cc} 
-- [ ]  
+
 - [ ] STUDENT GROUP 
-- [ ] GET /studentgroups 
+- [x] GET /studentgroups 
 - [ ] GET /studentgroup/{gc} 
 - [ ] PUT /studentgroup/{gc} 
 - [ ] POST /studentgroup/{gc} 
@@ -211,15 +240,18 @@
 - [ ] GET /studentgroup/{gc}/activity/{c} 
 - [ ] POST /studentgroup/{gc}/activity/{c} 
 - [ ] DELETE /studentgroup/{gc}/activity/{c} 
+
 - [ ] SUPERGROUP 
-- [ ] GET /supergroups 
+- [x] GET /supergroups 
 - [ ] GET /supergroup/{gc} 
+
 - [ ] TIMEFRAME 
 - [x] GET /timeframes 
 - [ ] GET /timeframe/{c} 
 - [ ] PUT /timeframe/{c} 
 - [ ] POST /timeframe/{c} 
 - [ ] DELETE /timeframe/{c} 
+
 - [ ] TIMETABLE 
 - [ ] GET /timetable/activity/{c}/{i} 
 - [ ] GET /timetable/booking/{c}/{i} 
@@ -234,11 +266,11 @@
 - [ ] GET /timetable/staff/{c} 
 - [ ] GET /timetable/student/{c} 
 - [ ] GET /timetable/studentgroup/{gc} 
+
 - [ ] WEBHOOK 
 - [x] GET /webhooks 
 - [ ] GET /webhook/{c} 
 - [ ] PUT /webhook/{c} 
-- [ ]  
 - [ ] POST /webhook/{c} 
 - [ ] DELETE /webhook/{c} 
 - [ ] GET /webhook/timetable 
@@ -246,4 +278,3 @@
 - [ ] PUT /webhook/timetable/{c} 
 - [ ] POST /webhook/timetable/{c} 
 - [ ] DELETE /webhook/timetable/{c} 
-- [ ]
