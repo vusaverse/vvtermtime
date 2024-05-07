@@ -4,6 +4,11 @@
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/vusaverse/vvtermtime/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/vusaverse/vvtermtime/actions/workflows/R-CMD-check.yaml)
 [![CodeFactor](https://www.codefactor.io/repository/github/vusaverse/vvtermtime/badge)](https://www.codefactor.io/repository/github/vusaverse/vvtermtime)
+[![CRAN status](https://www.r-pkg.org/badges/version/vvtermtime)](https://CRAN.R-project.org/package=vvtermtime/)
+<a href="https://diffify.com/R/vvtermtime" target="_blank"><img src="https://diffify.com/diffify-badge.svg" alt="The diffify page for the R package vvtermtime" style="width: 100px; max-width: 100%;"></a>
+[![CRAN last month downloads](https://cranlogs.r-pkg.org/badges/last-month/vvtermtime?color=green/)](https://cran.r-project.org/package=vvtermtime/)
+[![CRAN last month downloads](https://cranlogs.r-pkg.org/badges/grand-total/vvtermtime?color=green/)](https://cran.r-project.org/package=vvtermtime/)
+
 <!-- badges: end -->
 
 The goal of `vvtermtime` is to provide functionalities to interact with the Semestry Timetabling Software API. The Semestry Timetabling Software is used by universities and educational institutions in creating efficient and effective schedules for their academic activities.
