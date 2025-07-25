@@ -6,3 +6,4 @@
 ^\.Rproj\.user$
 ^TODO\.md$
 .pdf$
+^CRAN-SUBMISSION$
