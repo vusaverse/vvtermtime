@@ -1,6 +1,6 @@
 - [ ] ACTIVITY
 - [x] GET /activities 
-- [ ] GET /activity/{c} 
+- [x] GET /activity/{c} 
 - [ ] PUT /activity/{c} 
 - [ ] DELETE /activity/{c} 
 - [ ] POST /activity 
@@ -9,17 +9,17 @@
 
 - [ ] ACTIVITY GROUP 
 - [x] GET /activitygroups 
-- [ ] GET /activitygroup/{c} 
+- [x] GET /activitygroup/{c} 
 - [ ] ACTIVITY TEMPLATES 
 - [x] GET /activitytemplates 
-- [ ] GET /activitytemplate/{c} 
+- [x] GET /activitytemplate/{c} 
 - [ ] DELETE /activitytemplate/{c} 
 
 ---
 
 - [ ] ACTIVITY TYPE 
 - [x] GET /activitytypes 
-- [ ] GET /activitytype/{c} 
+- [x] GET /activitytype/{c} 
 - [ ] POST /activitytype/{c} 
 - [ ] DELETE /activitytype/{c} 
 
@@ -27,7 +27,7 @@
 
 - [ ] ASSESSMENT TYPES 
 - [x] GET /assessmenttypes 
-- [ ] GET /assessmenttype/{c} 
+- [x] GET /assessmenttype/{c} 
 - [ ] PUT /assessmenttype/{c} 
 - [ ] DELETE /assessmenttype/{c} 
 - [ ] POST /assessmenttype 
@@ -46,7 +46,7 @@
 
 - [ ] BUILDING 
 - [x] GET /buildings 
-- [ ] GET /building/{b}/{c} 
+- [x] GET /building/{b}/{c} 
 - [ ] PUT /building/{b}/{c} 
 - [ ] POST /building/{b}/{c} 
 - [ ] DELETE /building/{b}/{c} 
@@ -55,7 +55,7 @@
 
 - [ ] CAMPUS 
 - [x] GET /campuses 
-- [ ] GET /campus/{c} 
+- [x] GET /campus/{c} 
 - [ ] PUT /campus/{c} 
 - [ ] POST /campus/{c} 
 - [ ] DELETE /campus/{c} 
@@ -64,7 +64,7 @@
 
 - [ ] CAPABILITY 
 - [x] GET /capabilities 
-- [ ] GET /capability/{c} 
+- [x] GET /capability/{c} 
 - [ ] POST /capability/{c} 
 - [ ] DELETE /capability/{c} 
 
@@ -72,7 +72,7 @@
 
 - [ ] CONTACT REQUIREMENT 
 - [x] GET /contactrequirements 
-- [ ] GET /contactrequirement/{c} 
+- [x] GET /contactrequirement/{c} 
 - [ ] PUT /contactrequirement/{c} 
 - [ ] POST /contactrequirement/{c} 
 - [ ] DELETE /contactrequirement/{c} 
@@ -81,7 +81,7 @@
 
 - [ ] COURSE 
 - [x] GET /courses 
-- [ ] GET /course/{cc} 
+- [x] GET /course/{cc} 
 - [ ] PUT /course/{cc} 
 - [ ] POST /course/{cc} 
 - [ ] DELETE /course/{cc} 
