@@ -4,17 +4,24 @@
 #'
 #' @param semestry An authenticated Semestry object.
 #' @param activitytype_code The activity type code to retrieve data for.
-#' @param ... Optional query parameters to pass to the API (e.g., fields, format).
+#' @param fields Optional parameter to specify which fields to return.
+#' @param format Optional parameter to specify the response format.
 #' @param timeout The timeout duration for the GET request (default: 30 seconds).
 #'
 #' @return The retrieved activity type data from the API.
 #'
 #' @export
-get_activitytype <- function(semestry, activitytype_code, ..., timeout = 30) {
+get_activitytype <- function(semestry, activitytype_code, fields = NULL, format = NULL, timeout = 30) {
   endpoint <- paste0("/v1/api/activitytype/", activitytype_code)
 
   # Build query parameters
-  query_params <- list(...)
+  query_params <- list()
+  if (!is.null(fields)) {
+    query_params$fields <- fields
+  }
+  if (!is.null(format)) {
+    query_params$format <- format
+  }
   
   url <- paste0(semestry$base_url, endpoint)
   if (length(query_params) > 0) {
