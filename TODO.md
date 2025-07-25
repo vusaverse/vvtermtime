@@ -11,7 +11,7 @@
 - [x] GET /activitygroups 
 - [ ] GET /activitygroup/{c} 
 - [ ] ACTIVITY TEMPLATES 
-- [ ] GET /activitytemplates 
+- [x] GET /activitytemplates 
 - [ ] GET /activitytemplate/{c} 
 - [ ] DELETE /activitytemplate/{c} 
 
@@ -138,14 +138,14 @@
 ---
 
 - [ ] EXEMPTION 
-- [ ] GET /exemptions 
+- [x] GET /exemptions 
 - [ ] POST /exemptions 
 - [ ] DELETE /exemptions/{code} 
 
 ---
 
 - [ ] FLOOR 
-- [ ] GET /floors 
+- [x] GET /floors 
 - [ ] GET /floor/{f}/{b}/{c} 
 - [ ] PUT /floor/{f}/{b}/{c} 
 - [ ] POST /floor/{f}/{b}/{c} 
@@ -154,7 +154,7 @@
 ---
 
 - [ ] LOCATION 
-- [ ] GET /locations 
+- [x] GET /locations 
 - [ ] GET /location/{code} 
 - [ ] PUT /location/{code} 
 - [ ] POST /location/{code} 
@@ -182,7 +182,7 @@
 ---
 
 - [ ] OPTIONGROUPS 
-- [ ] GET /optiongroups
+- [x] GET /optiongroups
 
 ---
 
@@ -193,7 +193,7 @@
 ---
 
 - [ ] PING 
-- [ ] GET /ping 
+- [x] GET /ping 
 
 ---
 
@@ -206,6 +206,8 @@
 - [x] REPORT 
 - [x] GET /report/room 
 - [x] GET /report/booking 
+- [x] GET /report/activity/attr 
+- [x] GET /report/activity/sche 
 
 ---
 
@@ -330,11 +332,11 @@
 - [ ] GET /timetable/takehomeExam/{c} 
 - [ ] GET /timetable/serialExam/{c} 
 - [ ] GET /timetable/course/{cc} 
-- [ ] GET /timetable/module/{c} 
+- [x] GET /timetable/module/{c} 
 - [ ] GET /timetable/er/{o} 
-- [ ] GET /timetable/room/{c} 
-- [ ] GET /timetable/staff/{c} 
-- [ ] GET /timetable/student/{c} 
+- [x] GET /timetable/room/{c} 
+- [x] GET /timetable/staff/{c} 
+- [x] GET /timetable/student/{c} 
 - [ ] GET /timetable/studentgroup/{gc} 
 
 ---
