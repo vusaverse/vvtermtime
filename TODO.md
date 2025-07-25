@@ -206,6 +206,8 @@
 - [x] REPORT 
 - [x] GET /report/room 
 - [x] GET /report/booking 
+- [x] GET /report/activity/attr 
+- [x] GET /report/activity/sche 
 
 ---
 
