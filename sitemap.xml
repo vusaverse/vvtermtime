@@ -1,132 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>/TODO.html</loc>
-  </url>
-  <url>
-    <loc>/articles/getting_started.html</loc>
-  </url>
-  <url>
-    <loc>/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/news/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/authenticate.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_activities.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_activities_report_attr.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_activities_report_sche.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_activity_groups.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_activity_types.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_assessment_types.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_booking_types.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_buildings.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_campuses.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_capabilities.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_contact_requirements.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_courses.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_database.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_departments.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_modules.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_offers.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_report_booking.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_report_room.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_room_relationships.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_roombookings.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_rooms.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_schedule_rooms.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_staff.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_staff_groups.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_staff_pools.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_student_group_maps.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_student_groups.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_students.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_supergroups.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_timeframes.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_webhooks.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/pipe.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/LICENSE-text.html</loc></url>
+<url><loc>/LICENSE.html</loc></url>
+<url><loc>/TODO.html</loc></url>
+<url><loc>/articles/getting_started.html</loc></url>
+<url><loc>/articles/index.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/news/index.html</loc></url>
+<url><loc>/reference/authenticate.html</loc></url>
+<url><loc>/reference/get_activities.html</loc></url>
+<url><loc>/reference/get_activities_report_attr.html</loc></url>
+<url><loc>/reference/get_activities_report_sche.html</loc></url>
+<url><loc>/reference/get_activity_groups.html</loc></url>
+<url><loc>/reference/get_activity_templates.html</loc></url>
+<url><loc>/reference/get_activity_types.html</loc></url>
+<url><loc>/reference/get_assessment_types.html</loc></url>
+<url><loc>/reference/get_booking_types.html</loc></url>
+<url><loc>/reference/get_buildings.html</loc></url>
+<url><loc>/reference/get_campuses.html</loc></url>
+<url><loc>/reference/get_capabilities.html</loc></url>
+<url><loc>/reference/get_contact_requirements.html</loc></url>
+<url><loc>/reference/get_courses.html</loc></url>
+<url><loc>/reference/get_database.html</loc></url>
+<url><loc>/reference/get_departments.html</loc></url>
+<url><loc>/reference/get_floors.html</loc></url>
+<url><loc>/reference/get_modules.html</loc></url>
+<url><loc>/reference/get_offers.html</loc></url>
+<url><loc>/reference/get_ping.html</loc></url>
+<url><loc>/reference/get_report_booking.html</loc></url>
+<url><loc>/reference/get_report_room.html</loc></url>
+<url><loc>/reference/get_room_relationships.html</loc></url>
+<url><loc>/reference/get_roombookings.html</loc></url>
+<url><loc>/reference/get_rooms.html</loc></url>
+<url><loc>/reference/get_schedule_rooms.html</loc></url>
+<url><loc>/reference/get_staff.html</loc></url>
+<url><loc>/reference/get_staff_groups.html</loc></url>
+<url><loc>/reference/get_staff_pools.html</loc></url>
+<url><loc>/reference/get_student_group_maps.html</loc></url>
+<url><loc>/reference/get_student_groups.html</loc></url>
+<url><loc>/reference/get_students.html</loc></url>
+<url><loc>/reference/get_supergroups.html</loc></url>
+<url><loc>/reference/get_timeframes.html</loc></url>
+<url><loc>/reference/get_timetable_module.html</loc></url>
+<url><loc>/reference/get_timetable_room.html</loc></url>
+<url><loc>/reference/get_timetable_staff.html</loc></url>
+<url><loc>/reference/get_timetable_student.html</loc></url>
+<url><loc>/reference/get_webhooks.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/pipe.html</loc></url>
 </urlset>
+
