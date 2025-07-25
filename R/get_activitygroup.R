@@ -4,15 +4,23 @@
 #'
 #' @param semestry An authenticated Semestry object.
 #' @param activitygroup_code The activity group code to retrieve data for.
+#' @param ... Optional query parameters to pass to the API (e.g., fields, format).
 #' @param timeout The timeout duration for the GET request (default: 30 seconds).
 #'
 #' @return The retrieved activity group data from the API.
 #'
 #' @export
-get_activitygroup <- function(semestry, activitygroup_code, timeout = 30) {
+get_activitygroup <- function(semestry, activitygroup_code, ..., timeout = 30) {
   endpoint <- paste0("/v1/api/activitygroup/", activitygroup_code)
 
+  # Build query parameters
+  query_params <- list(...)
+  
   url <- paste0(semestry$base_url, endpoint)
+  if (length(query_params) > 0) {
+    query_string <- paste(names(query_params), query_params, sep = "=", collapse = "&")
+    url <- paste0(url, "?", query_string)
+  }
 
   resp <- httr::GET(
     url,
